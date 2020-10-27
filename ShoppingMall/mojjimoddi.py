@@ -16,7 +16,6 @@ for item in items:
     price = item.find("span",attrs={"class":"nIAdxeTzhx"}).get_text()
     link = "https://smatstore.naver.com" + item.a["href"]
     review = item.find("div",attrs={"class":"_27Y22p2kob"})
-    #review = item.find("em",attrs={"class":"_1dH1kEDaAZ"})
     if review:
         review = review.get_text()
     else:
