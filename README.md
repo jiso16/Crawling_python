@@ -12,8 +12,12 @@
 
 - Web Crawling 한 데이터를 Database에 저장
 
--  Databese 명 : Crawling, 
+-  Databese 명 : Crawling, Table 명: mojjimoddi
+
+- mysql을 통해 먼저 database와 table을 만들어 준 후 crawling한 데이터를 저장
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg2NzIwODIsLTE5NjM2NTE1MzgsOD
+eyJoaXN0b3J5IjpbLTE4NjE3NjkxMjYsLTE5NjM2NTE1MzgsOD
 IzNDg0NDUyXX0=
 -->
