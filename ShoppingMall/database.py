@@ -4,7 +4,7 @@ import pymysql
 
 url = "https://smartstore.naver.com/mojjimoddi/category/ALL?cp=1"
 
-conn = pymysql.connect(host='localhost', user='root', password='wlthgml97', db='crawling',charset = 'utf8')
+conn = pymysql.connect(host='localhost', user='root', password='', db='crawling',charset = 'utf8')
 
 curs = conn.cursor()
 sql = "select * from mojjimoddi"
